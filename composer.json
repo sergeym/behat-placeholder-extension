@@ -18,7 +18,8 @@
         "phpunit/phpunit": "^6.0",
         "symfony/property-access": "~3.0",
         "behat/symfony2-extension": "^2.1",
-        "doctrine/common": "~2.0"
+        "doctrine/common": "~2.0",
+        "behat/gherkin": "^4.5"
     },
     "suggest": {
         "behat/symfony2-extension": "Allows usages for Doctrine context",

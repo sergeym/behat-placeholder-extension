@@ -17,7 +17,8 @@ final class PlaceholderUtil
         return
             isset($placeholder[0]) &&
             $placeholder[0] === '%' &&
-            $placeholder[strlen($placeholder) - 1] === '%'
+            $placeholder[strlen($placeholder) - 1] === '%' &&
+            2 === substr_count($placeholder, '%')
         ;
     }
 
